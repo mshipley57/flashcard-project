@@ -5,15 +5,15 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Peek-a-boo</title>
+    <title>Flashcard Game</title>
   </head>
     <body>
       <div class="container">
             <header class="header clearfix">
               <nav>
                 <ul class="nav nav-pills float-right">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Colors 1 <span class="sr-only">(current)</span></a>
+                  <li class="nav-item" id="color1">
+                    Colors 1
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Colors 2</a>
@@ -28,25 +28,25 @@
               <div class="jumbotron">
                 <h1 class="display-3">Test Your Knowledge</h1>
                 <p class="lead">Click terms to see their definitions! Quiz your friends and neighbors!</p>
-                <p><a class="btn btn-lg btn-success" href="#" role="button">Show All</a></p>
+                <p><span class="btn btn-lg btn-success" href="#" role="button">Show All</span></p>
               </div>
 
               <div class="row marketing">
                 <div class="col-lg-6">
-                  <h2>Javascript</h2>
-                  <p>an object-oriented computer programming language commonly used to create interactive effects within web browsers</p>
+                  <h2 id="term1">Javascript</h2>
+                  <span id="term1Hidden">an object-oriented computer programming language commonly used to create interactive effects within web browsers</span>
 
-                  <h2>Operators</h2>
-                  <p>a symbol or function denoting an operation</p>
+                  <h2 id="term2">Operators</h2>
+                  <span id="term2Hidden">a symbol or function denoting an operation</span>
 
-                  <h2>Variables</h2>
-                  <p>a data item that may take on more than one value during the runtime of a program.</p>
+                  <h2 id="term3">Variables</h2>
+                  <span id="term3Hidden">a data item that may take on more than one value during the runtime of a program.</span>
 
-                  <h2>Variable naming conventions</h2>
-                  <p>e.g. camelCase: a typographical convention in which an initial capital is used for the first letter of a word forming the second element of a closed compound</p>
+                  <h2 id="term4">Variable naming conventions</h2>
+                  <span id="term4Hidden">e.g. camelCase: a typographical convention in which an initial capital is used for the first letter of a word forming the second element of a closed compound</span>
 
-                  <h2>Functions</h2>
-                  <p>a named section of a program that performs a specific task. In this sense, a function is a type of procedure or routine. Some programming languages make a distinction between a function, which returns a value, and a procedure, which performs some operation but does not return a value.</p>
+                  <h2 id="term5">Functions</h2>
+                  <span id="term5Hidden">a named section of a program that performs a specific task. In this sense, a function is a type of procedure or routine. Some programming languages make a distinction between a function, which returns a value, and a procedure, which performs some operation but does not return a value.</span>
 
                   <h2>Methods</h2>
                   <p>Data is represented as properties of the object and behavior as methods</p>
